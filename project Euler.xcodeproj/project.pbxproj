@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		919A15EA2427F8AF00E3E7DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 919A15E92427F8AF00E3E7DF /* main.cpp */; };
+		919A15F72427F8F300E3E7DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 919A15F62427F8F300E3E7DF /* main.cpp */; };
+		919A16022427F96000E3E7DF /* pro17Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919A16012427F96000E3E7DF /* pro17Tests.m */; };
+		919A160A2427F9AC00E3E7DF /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919A16082427F9AC00E3E7DF /* libgtest.a */; };
+		919A160B2427F9AC00E3E7DF /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919A16092427F9AC00E3E7DF /* libgtest_main.a */; };
+		919A160D2427F9DD00E3E7DF /* GoogleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 919A160C2427F9DD00E3E7DF /* GoogleTests.mm */; };
+		919A160F2427F9F500E3E7DF /* tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 919A160E2427F9F500E3E7DF /* tests.cpp */; };
+		919A16122428A98400E3E7DF /* class17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 919A16102428A98400E3E7DF /* class17.cpp */; };
+		919A16132428A98400E3E7DF /* class17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 919A16102428A98400E3E7DF /* class17.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		919A15E42427F8AF00E3E7DF /* CopyFiles */ = {
+		919A15F22427F8F300E3E7DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,15 +30,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		919A15E62427F8AF00E3E7DF /* project Euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project Euler"; sourceTree = BUILT_PRODUCTS_DIR; };
-		919A15E92427F8AF00E3E7DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		919A15F42427F8F300E3E7DF /* problem 17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "problem 17"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919A15F62427F8F300E3E7DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		919A15FF2427F96000E3E7DF /* pro17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pro17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919A16012427F96000E3E7DF /* pro17Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pro17Tests.m; sourceTree = "<group>"; };
+		919A16032427F96000E3E7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919A16082427F9AC00E3E7DF /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../../../../../../../usr/local/lib/libgtest.a; sourceTree = "<group>"; };
+		919A16092427F9AC00E3E7DF /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = ../../../../../../../../usr/local/lib/libgtest_main.a; sourceTree = "<group>"; };
+		919A160C2427F9DD00E3E7DF /* GoogleTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GoogleTests.mm; path = "../../../xcode-googletest/Bundle/GoogleTests.mm"; sourceTree = "<group>"; };
+		919A160E2427F9F500E3E7DF /* tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tests.cpp; sourceTree = "<group>"; };
+		919A16102428A98400E3E7DF /* class17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = class17.cpp; sourceTree = "<group>"; };
+		919A16112428A98400E3E7DF /* class17.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = class17.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		919A15E32427F8AF00E3E7DF /* Frameworks */ = {
+		919A15F12427F8F300E3E7DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A15FC2427F96000E3E7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A160A2427F9AC00E3E7DF /* libgtest.a in Frameworks */,
+				919A160B2427F9AC00E3E7DF /* libgtest_main.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,46 +66,90 @@
 		919A15DD2427F8AF00E3E7DF = {
 			isa = PBXGroup;
 			children = (
-				919A15E82427F8AF00E3E7DF /* project Euler */,
+				919A15F52427F8F300E3E7DF /* problem 17 */,
+				919A16002427F96000E3E7DF /* pro17Tests */,
 				919A15E72427F8AF00E3E7DF /* Products */,
+				919A16072427F9AC00E3E7DF /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		919A15E72427F8AF00E3E7DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				919A15E62427F8AF00E3E7DF /* project Euler */,
+				919A15F42427F8F300E3E7DF /* problem 17 */,
+				919A15FF2427F96000E3E7DF /* pro17Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		919A15E82427F8AF00E3E7DF /* project Euler */ = {
+		919A15F52427F8F300E3E7DF /* problem 17 */ = {
 			isa = PBXGroup;
 			children = (
-				919A15E92427F8AF00E3E7DF /* main.cpp */,
+				919A15F62427F8F300E3E7DF /* main.cpp */,
+				919A160E2427F9F500E3E7DF /* tests.cpp */,
+				919A16102428A98400E3E7DF /* class17.cpp */,
+				919A16112428A98400E3E7DF /* class17.hpp */,
 			);
-			path = "project Euler";
+			path = "problem 17";
+			sourceTree = "<group>";
+		};
+		919A16002427F96000E3E7DF /* pro17Tests */ = {
+			isa = PBXGroup;
+			children = (
+				919A16012427F96000E3E7DF /* pro17Tests.m */,
+				919A16032427F96000E3E7DF /* Info.plist */,
+				919A160C2427F9DD00E3E7DF /* GoogleTests.mm */,
+			);
+			path = pro17Tests;
+			sourceTree = "<group>";
+		};
+		919A16072427F9AC00E3E7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919A16092427F9AC00E3E7DF /* libgtest_main.a */,
+				919A16082427F9AC00E3E7DF /* libgtest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		919A15E52427F8AF00E3E7DF /* project Euler */ = {
+		919A15F32427F8F300E3E7DF /* problem 17 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 919A15ED2427F8AF00E3E7DF /* Build configuration list for PBXNativeTarget "project Euler" */;
+			buildConfigurationList = 919A15F82427F8F300E3E7DF /* Build configuration list for PBXNativeTarget "problem 17" */;
 			buildPhases = (
-				919A15E22427F8AF00E3E7DF /* Sources */,
-				919A15E32427F8AF00E3E7DF /* Frameworks */,
-				919A15E42427F8AF00E3E7DF /* CopyFiles */,
+				919A15F02427F8F300E3E7DF /* Sources */,
+				919A15F12427F8F300E3E7DF /* Frameworks */,
+				919A15F22427F8F300E3E7DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "project Euler";
-			productName = "project Euler";
-			productReference = 919A15E62427F8AF00E3E7DF /* project Euler */;
+			name = "problem 17";
+			productName = "problem 17";
+			productReference = 919A15F42427F8F300E3E7DF /* problem 17 */;
 			productType = "com.apple.product-type.tool";
+		};
+		919A15FE2427F96000E3E7DF /* pro17Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919A16042427F96000E3E7DF /* Build configuration list for PBXNativeTarget "pro17Tests" */;
+			buildPhases = (
+				919A15FB2427F96000E3E7DF /* Sources */,
+				919A15FC2427F96000E3E7DF /* Frameworks */,
+				919A15FD2427F96000E3E7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pro17Tests;
+			productName = pro17Tests;
+			productReference = 919A15FF2427F96000E3E7DF /* pro17Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -91,7 +160,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Στρατής Χριστοδούλου";
 				TargetAttributes = {
-					919A15E52427F8AF00E3E7DF = {
+					919A15F32427F8F300E3E7DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					919A15FE2427F96000E3E7DF = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -109,17 +181,40 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				919A15E52427F8AF00E3E7DF /* project Euler */,
+				919A15F32427F8F300E3E7DF /* problem 17 */,
+				919A15FE2427F96000E3E7DF /* pro17Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		919A15FD2427F96000E3E7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		919A15E22427F8AF00E3E7DF /* Sources */ = {
+		919A15F02427F8F300E3E7DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919A15EA2427F8AF00E3E7DF /* main.cpp in Sources */,
+				919A16122428A98400E3E7DF /* class17.cpp in Sources */,
+				919A15F72427F8F300E3E7DF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A15FB2427F96000E3E7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A160D2427F9DD00E3E7DF /* GoogleTests.mm in Sources */,
+				919A16022427F96000E3E7DF /* pro17Tests.m in Sources */,
+				919A16132428A98400E3E7DF /* class17.cpp in Sources */,
+				919A160F2427F9F500E3E7DF /* tests.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +271,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -228,6 +325,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -235,7 +334,7 @@
 			};
 			name = Release;
 		};
-		919A15EE2427F8AF00E3E7DF /* Debug */ = {
+		919A15F92427F8F300E3E7DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,12 +344,46 @@
 			};
 			name = Debug;
 		};
-		919A15EF2427F8AF00E3E7DF /* Release */ = {
+		919A15FA2427F8F300E3E7DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NS8UARVP3R;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		919A16052427F96000E3E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NS8UARVP3R;
+				INFOPLIST_FILE = pro17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.texnopraksis.pro17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		919A16062427F96000E3E7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NS8UARVP3R;
+				INFOPLIST_FILE = pro17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.texnopraksis.pro17Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -267,11 +400,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		919A15ED2427F8AF00E3E7DF /* Build configuration list for PBXNativeTarget "project Euler" */ = {
+		919A15F82427F8F300E3E7DF /* Build configuration list for PBXNativeTarget "problem 17" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				919A15EE2427F8AF00E3E7DF /* Debug */,
-				919A15EF2427F8AF00E3E7DF /* Release */,
+				919A15F92427F8F300E3E7DF /* Debug */,
+				919A15FA2427F8F300E3E7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919A16042427F96000E3E7DF /* Build configuration list for PBXNativeTarget "pro17Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919A16052427F96000E3E7DF /* Debug */,
+				919A16062427F96000E3E7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
