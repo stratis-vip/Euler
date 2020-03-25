@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>btree.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>pro17Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>pro18Tests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
@@ -14,14 +24,39 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>problem 18.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>project Euler.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>treeTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>91731EA624293E50001A8745</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91731EB424293EB5001A8745</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91731ED5242A6897001A8745</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>919A15FE2427F96000E3E7DF</key>
 		<dict>
 			<key>primary</key>

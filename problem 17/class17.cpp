@@ -85,7 +85,7 @@ size_t getStringSize(std::string a) {
 }
 
 Class17::Class17(const size_t val) : _aValue(val) {
-  if (val< 100) {
+  if (val < 100) {
     _sValue = under100(val);
   } else {
     _sValue = over100(val);
