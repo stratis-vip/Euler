@@ -16,7 +16,6 @@
 using vectorTable = std::vector<std::vector<size_t>>;
 size_t getMaxFromTriangle(const vectorTable &, const size_t = 0);
 
-
 class Class18 {
 public:
   Class18(const std::string &, const size_t);
@@ -25,9 +24,7 @@ public:
   size_t value();
   size_t position();
   vectorTable getTable() const { return table; };
-  size_t solve(){
-    return getMaxFromTriangle(table);
-  }
+  size_t solve() { return getMaxFromTriangle(table); }
 
 private:
   vectorTable table{};
@@ -35,7 +32,5 @@ private:
   size_t _pos{};
   size_t _valuePos{};
 };
-
-
 
 #endif /* class18_hpp */

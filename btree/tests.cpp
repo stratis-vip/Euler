@@ -12,7 +12,7 @@
 TEST(BinaryTree, initialValues) {
   Node<int> a{};
   a.data = 0;
-  EXPECT_EQ(a.left,  nullptr);
+  EXPECT_EQ(a.left, nullptr);
   EXPECT_EQ(a.right, nullptr);
   EXPECT_EQ(a.data, 0);
 }

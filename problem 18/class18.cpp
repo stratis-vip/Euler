@@ -11,16 +11,16 @@
 
 size_t max(const size_t a, const size_t b) { return a > b ? a : b; }
 
-vectorTable createTable(const vectorTable &a, const size_t offset){
+vectorTable createTable(const vectorTable &a, const size_t offset) {
   vectorTable retVal{};
-  for (size_t row = 0; row != a.size()-1; row++){
+  for (size_t row = 0; row != a.size() - 1; row++) {
     std::vector<size_t> temp{};
-    for (size_t col = 0; col != row+1; col++){
-      temp.push_back(a.at(row+1).at(offset+col));
+    for (size_t col = 0; col != row + 1; col++) {
+      temp.push_back(a.at(row + 1).at(offset + col));
     }
     retVal.push_back(temp);
   }
-//  for (auto i = a.at(1).cbegin(); i != a.at(1).cend(); i++) {
+  //  for (auto i = a.at(1).cbegin(); i != a.at(1).cend(); i++) {
 
   return retVal;
 }
@@ -33,9 +33,10 @@ size_t getMaxFromTriangle(const vectorTable &a, const size_t row) {
   } else {
     vectorTable left = createTable(a, 0);
     vectorTable right = createTable(a, 1);
-    
-    retVal = a.at(0).at(0) + max(getMaxFromTriangle(left), getMaxFromTriangle(right));
-    }
+
+    retVal = a.at(0).at(0) +
+             max(getMaxFromTriangle(left), getMaxFromTriangle(right));
+  }
   return retVal;
 }
 
