@@ -1,13 +1,13 @@
 #ifndef _EULER_HPP_
 #define _EULER_HPP_
-#include <array>
 #include <cmath>
 #include <functional>
 #include <iostream>
 #include <iterator>
-#include <memory>
 #include <sstream>
 #include <vector>
+#include <chrono>
+#include <algorithm>
 
 typedef long long LL;
 

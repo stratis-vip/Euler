@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stratis/Documents/dev/c++/Euler/problem20/main.cpp
+bigIntClass.hpp
+/home/stratis/Documents/dev/c++/Euler/problem20/bigIntClass.hpp
+iostream
+-
+

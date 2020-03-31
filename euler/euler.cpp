@@ -1,6 +1,4 @@
 #include "euler.hpp"
-#include <algorithm>
-#include <cstring>
 
 bool euler::areDivided(const LL number, const LL divider) {
   if (divider == 0) {

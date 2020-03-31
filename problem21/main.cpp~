@@ -12,7 +12,7 @@
 
 struct node{
   int val;
-  std::unique_ptr<node> next = NULL;
+  std::unique_ptr<node> next{NULL};
   node(const int value):val(value){}
 };
 

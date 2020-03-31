@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stratis/Documents/dev/c++/Euler/euler/euler.cpp
+euler.hpp
+/home/stratis/Documents/dev/c++/Euler/euler/euler.hpp
+
+/home/stratis/Documents/dev/c++/Euler/euler/euler.hpp
+cmath
+-
+functional
+-
+iostream
+-
+iterator
+-
+sstream
+-
+vector
+-
+chrono
+-
+algorithm
+-
+

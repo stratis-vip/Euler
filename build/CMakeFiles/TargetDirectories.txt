@@ -1,0 +1,11 @@
+/home/stratis/Documents/dev/c++/Euler/build/CMakeFiles/rebuild_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/CMakeFiles/edit_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/euler/CMakeFiles/rebuild_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/euler/CMakeFiles/edit_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/euler/CMakeFiles/euler.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem21/CMakeFiles/rebuild_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem21/CMakeFiles/edit_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem21/CMakeFiles/problem21.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem20/CMakeFiles/rebuild_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem20/CMakeFiles/edit_cache.dir
+/home/stratis/Documents/dev/c++/Euler/build/problem20/CMakeFiles/problem20.dir
